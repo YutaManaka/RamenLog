@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D3F1F326FA175200C368EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D3F1F226FA175200C368EF /* AppDelegate.swift */; };
+		F5D3F1F526FA175200C368EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D3F1F426FA175200C368EF /* SceneDelegate.swift */; };
+		F5D3F1F726FA175200C368EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D3F1F626FA175200C368EF /* ViewController.swift */; };
+		F5D3F1FA26FA175200C368EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D3F1F826FA175200C368EF /* Main.storyboard */; };
+		F5D3F1FC26FA175300C368EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D3F1FB26FA175300C368EF /* Assets.xcassets */; };
+		F5D3F1FF26FA175300C368EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D3F1FD26FA175300C368EF /* LaunchScreen.storyboard */; };
+		F5D3F20A26FA175300C368EF /* RamenLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D3F20926FA175300C368EF /* RamenLogTests.swift */; };
+		F5D3F21526FA175300C368EF /* RamenLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D3F21426FA175300C368EF /* RamenLogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D3F20626FA175300C368EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D3F1E726FA175100C368EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D3F1EE26FA175100C368EF;
+			remoteInfo = RamenLog;
+		};
+		F5D3F21126FA175300C368EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D3F1E726FA175100C368EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D3F1EE26FA175100C368EF;
+			remoteInfo = RamenLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5D3F1EF26FA175100C368EF /* RamenLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamenLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D3F1F226FA175200C368EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5D3F1F426FA175200C368EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5D3F1F626FA175200C368EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D3F1F926FA175200C368EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5D3F1FB26FA175300C368EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5D3F1FE26FA175300C368EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5D3F20026FA175300C368EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D3F20526FA175300C368EF /* RamenLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamenLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D3F20926FA175300C368EF /* RamenLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenLogTests.swift; sourceTree = "<group>"; };
+		F5D3F20B26FA175300C368EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D3F21026FA175300C368EF /* RamenLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamenLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D3F21426FA175300C368EF /* RamenLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenLogUITests.swift; sourceTree = "<group>"; };
+		F5D3F21626FA175300C368EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D3F1EC26FA175100C368EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D3F20226FA175300C368EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D3F20D26FA175300C368EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D3F1E626FA175100C368EF = {
+			isa = PBXGroup;
+			children = (
+				F5D3F1F126FA175200C368EF /* RamenLog */,
+				F5D3F20826FA175300C368EF /* RamenLogTests */,
+				F5D3F21326FA175300C368EF /* RamenLogUITests */,
+				F5D3F1F026FA175100C368EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D3F1F026FA175100C368EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D3F1EF26FA175100C368EF /* RamenLog.app */,
+				F5D3F20526FA175300C368EF /* RamenLogTests.xctest */,
+				F5D3F21026FA175300C368EF /* RamenLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D3F1F126FA175200C368EF /* RamenLog */ = {
+			isa = PBXGroup;
+			children = (
+				F5D3F1F226FA175200C368EF /* AppDelegate.swift */,
+				F5D3F1F426FA175200C368EF /* SceneDelegate.swift */,
+				F5D3F1F626FA175200C368EF /* ViewController.swift */,
+				F5D3F1F826FA175200C368EF /* Main.storyboard */,
+				F5D3F1FB26FA175300C368EF /* Assets.xcassets */,
+				F5D3F1FD26FA175300C368EF /* LaunchScreen.storyboard */,
+				F5D3F20026FA175300C368EF /* Info.plist */,
+			);
+			path = RamenLog;
+			sourceTree = "<group>";
+		};
+		F5D3F20826FA175300C368EF /* RamenLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D3F20926FA175300C368EF /* RamenLogTests.swift */,
+				F5D3F20B26FA175300C368EF /* Info.plist */,
+			);
+			path = RamenLogTests;
+			sourceTree = "<group>";
+		};
+		F5D3F21326FA175300C368EF /* RamenLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D3F21426FA175300C368EF /* RamenLogUITests.swift */,
+				F5D3F21626FA175300C368EF /* Info.plist */,
+			);
+			path = RamenLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D3F1EE26FA175100C368EF /* RamenLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D3F21926FA175300C368EF /* Build configuration list for PBXNativeTarget "RamenLog" */;
+			buildPhases = (
+				F5D3F1EB26FA175100C368EF /* Sources */,
+				F5D3F1EC26FA175100C368EF /* Frameworks */,
+				F5D3F1ED26FA175100C368EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamenLog;
+			productName = RamenLog;
+			productReference = F5D3F1EF26FA175100C368EF /* RamenLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D3F20426FA175300C368EF /* RamenLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D3F21C26FA175300C368EF /* Build configuration list for PBXNativeTarget "RamenLogTests" */;
+			buildPhases = (
+				F5D3F20126FA175300C368EF /* Sources */,
+				F5D3F20226FA175300C368EF /* Frameworks */,
+				F5D3F20326FA175300C368EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D3F20726FA175300C368EF /* PBXTargetDependency */,
+			);
+			name = RamenLogTests;
+			productName = RamenLogTests;
+			productReference = F5D3F20526FA175300C368EF /* RamenLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5D3F20F26FA175300C368EF /* RamenLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D3F21F26FA175300C368EF /* Build configuration list for PBXNativeTarget "RamenLogUITests" */;
+			buildPhases = (
+				F5D3F20C26FA175300C368EF /* Sources */,
+				F5D3F20D26FA175300C368EF /* Frameworks */,
+				F5D3F20E26FA175300C368EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D3F21226FA175300C368EF /* PBXTargetDependency */,
+			);
+			name = RamenLogUITests;
+			productName = RamenLogUITests;
+			productReference = F5D3F21026FA175300C368EF /* RamenLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D3F1E726FA175100C368EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F5D3F1EE26FA175100C368EF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F5D3F20426FA175300C368EF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F5D3F1EE26FA175100C368EF;
+					};
+					F5D3F20F26FA175300C368EF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F5D3F1EE26FA175100C368EF;
+					};
+				};
+			};
+			buildConfigurationList = F5D3F1EA26FA175100C368EF /* Build configuration list for PBXProject "RamenLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D3F1E626FA175100C368EF;
+			productRefGroup = F5D3F1F026FA175100C368EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D3F1EE26FA175100C368EF /* RamenLog */,
+				F5D3F20426FA175300C368EF /* RamenLogTests */,
+				F5D3F20F26FA175300C368EF /* RamenLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D3F1ED26FA175100C368EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D3F1FF26FA175300C368EF /* LaunchScreen.storyboard in Resources */,
+				F5D3F1FC26FA175300C368EF /* Assets.xcassets in Resources */,
+				F5D3F1FA26FA175200C368EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D3F20326FA175300C368EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D3F20E26FA175300C368EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D3F1EB26FA175100C368EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D3F1F726FA175200C368EF /* ViewController.swift in Sources */,
+				F5D3F1F326FA175200C368EF /* AppDelegate.swift in Sources */,
+				F5D3F1F526FA175200C368EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D3F20126FA175300C368EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D3F20A26FA175300C368EF /* RamenLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D3F20C26FA175300C368EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D3F21526FA175300C368EF /* RamenLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D3F20726FA175300C368EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D3F1EE26FA175100C368EF /* RamenLog */;
+			targetProxy = F5D3F20626FA175300C368EF /* PBXContainerItemProxy */;
+		};
+		F5D3F21226FA175300C368EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D3F1EE26FA175100C368EF /* RamenLog */;
+			targetProxy = F5D3F21126FA175300C368EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D3F1F826FA175200C368EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D3F1F926FA175200C368EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5D3F1FD26FA175300C368EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D3F1FE26FA175300C368EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D3F21726FA175300C368EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D3F21826FA175300C368EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D3F21A26FA175300C368EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Q9A6LSXQ;
+				INFOPLIST_FILE = RamenLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YutaManaka.RamenLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5D3F21B26FA175300C368EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Q9A6LSXQ;
+				INFOPLIST_FILE = RamenLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YutaManaka.RamenLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5D3F21D26FA175300C368EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Q9A6LSXQ;
+				INFOPLIST_FILE = RamenLogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YutaManaka.RamenLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamenLog.app/RamenLog";
+			};
+			name = Debug;
+		};
+		F5D3F21E26FA175300C368EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Q9A6LSXQ;
+				INFOPLIST_FILE = RamenLogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YutaManaka.RamenLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamenLog.app/RamenLog";
+			};
+			name = Release;
+		};
+		F5D3F22026FA175300C368EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Q9A6LSXQ;
+				INFOPLIST_FILE = RamenLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YutaManaka.RamenLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamenLog;
+			};
+			name = Debug;
+		};
+		F5D3F22126FA175300C368EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Q9A6LSXQ;
+				INFOPLIST_FILE = RamenLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YutaManaka.RamenLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamenLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D3F1EA26FA175100C368EF /* Build configuration list for PBXProject "RamenLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D3F21726FA175300C368EF /* Debug */,
+				F5D3F21826FA175300C368EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D3F21926FA175300C368EF /* Build configuration list for PBXNativeTarget "RamenLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D3F21A26FA175300C368EF /* Debug */,
+				F5D3F21B26FA175300C368EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D3F21C26FA175300C368EF /* Build configuration list for PBXNativeTarget "RamenLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D3F21D26FA175300C368EF /* Debug */,
+				F5D3F21E26FA175300C368EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D3F21F26FA175300C368EF /* Build configuration list for PBXNativeTarget "RamenLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D3F22026FA175300C368EF /* Debug */,
+				F5D3F22126FA175300C368EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D3F1E726FA175100C368EF /* Project object */;
+}
